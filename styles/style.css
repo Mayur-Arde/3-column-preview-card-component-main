@@ -31,23 +31,23 @@ body{
 }
 
 .card{
-  padding: 45px; 
+  padding: 55px; 
 }
 
 .card h3{
-  font-size: 30px;
+  font-size: 36px;
   font-family: 'Big Shoulders Display', cursive;
-  margin: 15px 0;
+  margin: 20px 0;
   text-transform: uppercase;
 }
 
 .card p{
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .btn{
     margin-top: 25px;
-    padding: 15px 30px;
+    padding: 12px 25px;
     border-radius: 30px;
     cursor: pointer;
     border: 2px solid var(--TransparentWhite);
@@ -96,6 +96,46 @@ body{
   background: var(--veryDarkCyan);
   color:  var(--TransparentWhite);
   border: 2px solid var(--VeryLightGray);
+}
+
+@media all and (min-width:1140px){
+ .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  min-height: 100vh;
+  margin: auto;
+ }
+
+ .orange{
+  border-top-right-radius: 0;
+  border-top-left-radius: 10px 10px; 
+  border-bottom-left-radius: 10px 10px;
+}
+
+.dark-cyan{
+  border-bottom-right-radius: 10px 10px;
+  border-bottom-left-radius: 0; 
+  border-top-right-radius :10px 10px;
+}
+
+.card {
+  padding: 55px;
+}
+
+.card h3{
+  margin: 25px 0;
+}
+
+.card p{
+  line-height: 1.7;
+} 
+
+.btn{
+    margin-top: 70px;
+}
+
 }
 
 
